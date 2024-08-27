@@ -198,7 +198,6 @@
   .burger__menu .close-button-menu {
     display: block;
     width: 17px;
-
     fill: rgb(255, 255, 255);
     position: absolute;
     top: 37px;
@@ -219,6 +218,7 @@
 
   .menu__title {
     margin-bottom: 108px;
+    font-size: 32px;
   }
 
   .img-menu {
@@ -242,6 +242,25 @@
 
   .about__title {
     margin-bottom: 45px;
+    font-size: 32px;
+  }
+
+  .reserve__title {
+    font-size: 32px;
+  }
+
+  .review__title {
+    font-size: 32px;
+  }
+
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
   }
 
 }

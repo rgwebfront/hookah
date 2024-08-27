@@ -42,6 +42,7 @@ $(document).ready(function () {
         enableTime: true,
         time_24hr: true,
         defaultDate: null,
+        minDate: 'today',
     });
 
     $('#dateTimeReserve').attr('data-default', $('#dateTimeReserve').val() || '');
